@@ -1,0 +1,202 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.bs {
+  box-shadow: rgb(23, 44, 66) 0px 20px 30px -10px;
+  margin-top: 20px !important;
+  border-radius: 20px !important;
+  padding: 20px !important;
+  background-color:rgba(38, 36, 36, 0.3)
+
+}
+
+
+.btn-link {
+  color: #000 !important
+}
+
+.btn-primary {
+  background-color: #000 !important;
+}
+
+/* DE AICI */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+body {
+  background-color: #111845;
+}
+
+.background-img {
+  background-image: url("https://i.imgur.com/FESGI4X.jpg");
+  height: auto;
+  width: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  box-shadow: 0px 0px 5px #000000;
+  position: relative;
+}
+
+.content h2 {
+  font-size: 19px;
+}
+
+.box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: '300px';
+  background: #36482e7b;
+  box-sizing: border-box;
+  overflow: hidden;
+  box-shadow: 0 20px 50px rgb(54, 72, 46);
+  border: 2px solid #36482e;
+  color: white;
+  padding: 20px;
+}
+
+.box:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.1);
+  transition: 0.5s;
+  pointer-events: none;
+}
+
+.box:hover:before {
+  left: -50%;
+  transform: skewX(-5deg);
+}
+
+
+.box .content {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  right: 15px;
+  bottom: 15px;
+  border: 1px solid #f0a591;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
+
+}
+
+.box span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+  box-sizing: border-box;
+
+}
+
+.box span:nth-child(1) {
+  transform: rotate(0deg);
+}
+
+.box span:nth-child(2) {
+  transform: rotate(90deg);
+}
+
+.box span:nth-child(3) {
+  transform: rotate(180deg);
+}
+
+.box span:nth-child(4) {
+  transform: rotate(270deg);
+}
+
+.box span:before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: #59f212;
+  animation: animate 2s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    transform: scaleX(0);
+    transform-origin: left;
+  }
+
+  50% {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  50.1% {
+    transform: scaleX(1);
+    transform-origin: right;
+
+  }
+
+  100% {
+    transform: scaleX(0);
+    transform-origin: right;
+
+  }
+
+}
+
+div.polaroid {
+  width: 100%!important;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 20px;
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.button{
+  background-color: #FFF!important;
+  color: #000!important
+}
+
+.btn-check{
+  width: 30px;
+  margin-right: 5px;
+}
+
+.btn-secondary{
+  margin-top: 5px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
