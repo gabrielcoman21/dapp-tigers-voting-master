@@ -7,7 +7,7 @@ import { routeNames } from 'routes';
 import routes from 'routes';
 import '@elrondnetwork/dapp-core/build/index.css';
 
-const environment = 'mainnet';
+const environment = 'devnet';
 
 const {
   TransactionsToastList,

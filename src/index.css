@@ -199,4 +199,13 @@ div.container {
   margin-top: 5px;
 }
 
+.form-check{
+  color:white;
+}
+
+.pl-4, .px-4 {
+  padding-left: 1.5rem !important;
+  max-height: 80px;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap');
