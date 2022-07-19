@@ -263,11 +263,6 @@ const Transactions = () => {
             </Col>
           </Row>
         </Container>
-
-
-
-
-
       </div>
 
 
